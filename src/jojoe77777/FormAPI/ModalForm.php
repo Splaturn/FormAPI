@@ -7,7 +7,7 @@ namespace jojoe77777\FormAPI;
 class ModalForm extends Form {
 
     /** @var string */
-    private $content = "";
+    private string $content = "";
 
     /**
      * @param callable|null $callable

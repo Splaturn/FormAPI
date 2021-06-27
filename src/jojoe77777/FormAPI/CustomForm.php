@@ -6,7 +6,7 @@ namespace jojoe77777\FormAPI;
 
 class CustomForm extends Form {
 
-    private $labelMap = [];
+    private array $labelMap = [];
 
     /**
      * @param callable|null $callable
